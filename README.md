@@ -1,6 +1,6 @@
  ### **Komutlara giriş 2:**
 
-  # WİLCARD KAVRAMI
+ # WİLCARD KAVRAMI
   
 - Komutları yazarken kriter oluşturmamızı sağlayan özel karakterlerdir.
 - Filtreleme işlevi görür.
@@ -17,10 +17,7 @@ Bu wilcard terimleri 3 tanedir. Bunlar:
  
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/9e37b137-57c8-42e6-b28b-b03a828b1cee"/>
-<div>
-
-
-
+</div>
 
 - ---
 
@@ -28,9 +25,7 @@ Bu wilcard terimleri 3 tanedir. Bunlar:
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/791eeb01-e37a-4b07-9c0b-832430fef786"/> 
-<div>
-
-
+</div>
 
 - ---
 
@@ -38,10 +33,8 @@ Bu wilcard terimleri 3 tanedir. Bunlar:
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/1851eb97-5c0e-4e05-9bb7-2d86bebc09fa"/>
-<div>
+</div>
    
-
-
 ---
 
 Örnek 4:
@@ -49,41 +42,40 @@ Bu wilcard terimleri 3 tanedir. Bunlar:
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/269ca173-514d-4c9a-b181-864716d410c5"/>
 
-<div>
+</div>
    
-
 ---
 Örnek 5:
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/add49fe2-578e-495f-84a2-dfca30423a55"/>
-<div>
-
- 
+</div>
 
 ---
   
 Örnek 6:
 
- <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/bdd5d94b-fc35-4228-8267-a109dea532b1"/>
 <div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/bdd5d94b-fc35-4228-8267-a109dea532b1"/>
+</div>
 
- 
 ---
-Yönlendirme Operatörleri:
+
+#### Yönlendirme Operatörleri:
 
 - Komutların girdi ve çıktılarını yönlendirmemizi sağlar.
   
-1) bir tane büyüktürişareti : Bir programın veya bir komutun çıktısını bir başka dosyaya tamamen yazmamızı sağlar.
+1) Bir tane büyüktür işareti : Bir programın veya bir komutun çıktısını bir başka dosyaya tamamen yazmamızı sağlar.
   
-2) iki tane büyüktür işareti : Bir programın veya bir komutun çıktısını bir başka dosyanın sonuna eklememizi sağlar.
+2) İki tane büyüktür işareti : Bir programın veya bir komutun çıktısını bir başka dosyanın sonuna eklememizi sağlar.
+
+---
   
 Örnek 1: yazi.txt dosyasının içindeki bilgileri mayis dosyasının içine aktarna işlemi yapılıyor.
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/b2041098-5b3f-42f0-9426-08c702d0c099"/>
-<div>
+</div>
   
 ---
 
@@ -91,33 +83,32 @@ Yönlendirme Operatörleri:
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/020d1b6a-a8f2-4b93-8902-51a39993376b"/>
-<div>
+</div>
  
 
 ---
   
-Pipe Kullanımı:
+#### Pipe Kullanımı:
   
 - Komutlarımız çıktılarını bir başka komuta girdi olarak veren operatördür.
-- Pipe işaretini klavyeden alt gr + -
+- Pipe işaretini klavyeden alt gr + -  ile yaparız.
 
 Örnek 1: 
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/00e1f902-f2ce-4a7e-9d98-08f292530050"/>
-<div>
+</div>
   
 ---
 
 Örnek 2: 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/22d57a23-a116-4ed1-85a9-da92f347b3a7"/>
-<div>
-
+</div>
 
 ---
 
-Kullanıcı Nedir?
+#### Kullanıcı Nedir?
   
 - Linux, çok kullanıcılı bir sistemdir.
   
@@ -125,13 +116,13 @@ Kullanıcı Nedir?
   
 - Kullanıcılar 2'ye ayrılır: Bunlar:
   
-1) Genel amaçlı Kullanıcılar:
+##### 1) Genel amaçlı Kullanıcılar:
 
 - Kendilerine veya gruplarına tanımlı yetkileri kullanırlar.
   
 - Ev dizinleri /home dizini altında bulunur.
   
-2)Root Kullanıcısı:
+##### 2) Root Kullanıcısı:
   
 - Tüm yetkilere ve erişimlere sahiptir.
   
@@ -141,7 +132,7 @@ Kullanıcı Nedir?
 
 ---
 
-Grup Nedir?
+#### Grup Nedir?
   
 - Birden fazla kullanıcının bir arada bulunduğu erişim gruplarıdır.
   
@@ -156,172 +147,170 @@ Grup Nedir?
 
 ---
 
-- Kullanıcı parolalarının olduğu yerdir. Önceden bu parolalar passwd içinde bulunurmuş.
+- /etc/shadow  kullanıcı parolalarının olduğu yerdir. Önceden bu parolalar passwd içinde bulunurmuş.
 
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/108a3718-b110-4e5e-8970-68f42584b923"/>
-<div>
+</div>
 
 
 ---
 
- - /etc/shadow içinde bulunan bilgilerin içinde 2. sütunda ünlem işareti vasra oraya parola dahil olmaz üzere girilemeyeceğini  belitir.
+ - /etc/shadow içinde bulunan bilgilerin içinde 2. sütunda ünlem işareti varsa oraya parola dahil olmaz üzere girilemeyeceğini  belitir.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/186554d3-601c-4cef-a629-5d7f8adbefd2"/>
-<div>
+</div>
 
---- 
+---
 
-- etc/shadow
+- root kullanıcısı olarak useradd komutu ile yeni kullanıcı ekleyebiliriz.
 	
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/5e96b340-e0f8-48e5-bc96-e799d4fb3af0"/>
-
-<div>
-
-
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/12362093-d475-4b7a-b723-b2eb40bac2e9"/>
+</div>
 
 ---
 
-- `ismail@kaya:~$file DosyaAdi `---> Dosyanın ne tür bir dosya olduğunu öğrenebiliriz.
+- root kullanıcısı olarak passwd komutu ile istediğmiz kullanıcıya yeni şifre ekleyip değiştirebilirz.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/52e67099-bde7-49e8-896c-9ebd0662be16"/>
+</div>
+
+---
+
+- root kullanıcısı olarak deluser komutu veya userdel komutu ile ekli olan istediğimiz kullanıyı silebiliriz.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/bd6c29e1-6ae9-49f9-90fd-fdc806255eef"/>
+</div>
 	
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/0b39830e-81e3-434e-a9b9-db245f7dfbe1"/>
-
-<div>
-
-
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/42f68f46-b63a-47c4-8821-969948f01897"/>
+</div>
 
 ---
 
-- `ismail@kaya:~$wc DosyaAdi `---> Dosya hakkında bilgi alırız.(Satır sayısı, kelime sayısı, dosyanın bayt türünden dosya boyutu)
-
-<div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/a4672a1c-997e-4d1b-aa99-bf341316788b"/>
-<div>
-
-
-
----
-
-- `ismail@kaya:~$wc -w DosyaAdi`---> Dosyanın içinde kaç kelime olduğunu öğreniriz.
-
-<div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/c18687a3-0e5a-46b9-8fb6-fa6a5fab7b9f"/>
-
-<div>
-
-
----
-
-- `ismail@kaya:~$wc -l DosyaAdi`---> Dosyanın içinde kaç satırdan oluştuğunu öğreniriz.
+- `cat /etc/group` komutu ile birlikte sistemde tanımlı olan bütün grupları isimleri ve ID'leri ile görebiliriz.
 	
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/de2768cb-297c-4a07-b6cf-aeeb5c92f106"/>
-
-<div>
-
-
-
----
-
-- `ismail@kaya:~$wc -c DosyaAdi`---> Dosyanın kaç byte olduğunu öğreniriz.
-	
-<div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/d48d70a1-fa2b-4cca-896a-4eb51bd68ab1"/>
-
-<div>
-
-
-
----
-
-- `ismail@kaya:~$wc -L DosyaAdi`---> Dosyanın içindeki en uzun satırın kaç harften oluştuğunu öğreniriz.
-	
-<div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/9d3d8332-4826-4f5e-9efe-250f2378170f"/>
-
-<div>
-
-
-
----
-
--  `ismail@kaya:~$man KullanmayiÖgrenmekIstedigimizKomut`---> Kılavuzu bulunan komut ve programların kılavuzlarını okur.
-
-	
----
-
--  `ismail@kaya:~$head DosyaAdi`---> Bir dosyanın ilk 10 satırını yazdırır.
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/c7454d12-5a44-4e98-850e-f484d3ae5a61"/>
+</div>
 
  <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/c62036e7-e552-4e80-96b0-3d452aee072a"/>
-
-<div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/f846f1a1-d157-4ee9-9910-2983a2f4063a"/>
+</div>
 
 ---
 
--  `ismail@kaya:~$tail DosyaAdi`---> Dosyanın son 10 satırını yazdırır.
+-  root kullanıcısı olarak addgroup komutu ile yeni bir grup ekleyebiliriz.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/442b8446-a815-40b2-97dc-32a47bccec8e"/>
-<div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/d83e2651-7f88-4b10-9214-67ff0938dd0f"/>
+</div>
 	
-
 ---
 
--  `ismail@kaya:~$more DosyaAdi`---> Terminal ekranına sığmayan metinleri okumayı kolaylaştırır.
+- root kullanıcısı olarak delgroup ile ekli olan istediğimiz grubu silebiliriz.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/393b69f7-43a3-43b7-9c31-da01bda56a69"/>
-
-<div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/db3fb797-a0e4-4d52-9392-887b0f2d6aab"/>
+</div>
 
 ---
 
--  `ismail@kaya:~$nl DosyaAdi`---> Boş olan satırlar hariç diğer satırlara satır numarası ekler.
+-  Kullanıcı Değiştirme Örneği: Aşağıdaki örnekte chown komutu ile ismailkaya kullanıcısına ait kaya adlı dosyanın kullanıcısını mavi adlı kullanıcı olarak değiştirdik.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/61f77e5f-6949-47e1-8d0b-e66b32207041"/>
-
-<div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/628168b1-3c33-424e-834a-8c148e0dac63"/>
+</div>
 
 ---
 
--  `ismail@kaya:~$sort DosyaAdi`---> Dosyanın içinde yazan yazıları sırası ile yazdırır.
+-  Toplu Olarak Kullanıcı Değiştirme Örneği: Aşağıdaki örnekte chown komutu ile ismailkaya kullanıcısına ait deneme ve yazi.txt adlı dosyaların kullanıcısını mavi adlı kullanıcı olarak değiştirdik.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/806a33d8-3780-4761-8099-5b9614a3def3"/>
-
-<div>
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/d03a2cca-0796-46c0-a596-ca224fbe596e"/>
+</div>
 
 ---
 
--  `ismail@kaya:~$sort -R DosyaAdi`---> Dosyanın içindeki bilgileri karışık olarak sıralar.
+-  Grup Değiştirme Örneği: Aşağıdaki örnekte chgrp komutu ile ismailkaya grubuna ait kaya adlı dosyanın grubunu siyah adlı grup olarak değiştirdik.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/40124014-3785-40d2-8d0b-c308c4b2405a"/>
-
-<div>
-
----
-
--  `ismail@kaya:~$sort -r DosyaAdi`---> Dosyanın içindeki bilgileri tersten sıralar.
-
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/f4f1267a-d5bc-4182-a38f-89321076ce39"/>
+</div>
 
 ---
 
--  `ismail@kaya:~$sort -c DosyaAdi`---> Yandaki komut ile dosyanın sıralı olup olmadığını bize söyler.
+-  Toplu Olarak Grup Değiştirme Örneği: Aşağıdaki örnekte chgrp komutu ile ismailkaya grubuna ait deneme ve yazi.txt adlı dosyaların grubunu siyah adlı grup olarak değiştirdik.
 
 <div align="center">
-	<img src="https://github.com/ismailkaya32/linux_komutlari_101/assets/122615472/00321265-645b-4d37-bb84-89d1bc86369d"/>
-<div>
-
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/cc888805-d845-4d8f-bbea-30e4791dfd4f"/>
+</div>
 
 ---
 
-- `ismail@kaya:~$sort -k DosyaAdi`---> Yandaki komut dosyaları belirttiğimiz sütundan sıralamamızı sağlar.
--  `ismail@kaya:~$sort -k SayiDegeri DosyaAdi`---> Yandaki komut dosyanın verdiğimiz sayının sütununda bulunan satıra göre sırayla listeler.
--  `ismail@kaya:~$sort -k SayiDegeri DosyaAdi`--->  Yandaki komut dosyanın verdiğimiz sayının sütununda bulunan satıra göre tersten sıralamayla listeler.
+##### Sahip Kullanıcı ve Sahip Grup Tanımı:
+
+<div align="center">
+	<img
+src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/3c01f7c6-c993-403a-94cf-de2b585924fa"/>
+</div>
+
+---
+
+##### Dosya İzinleri:
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/013728dc-42c1-45b4-a113-ecc4cfad0380"/>
+</div>
+
+
+##### Dosya İzinlerini Gruplandırma: 
+
+- Aşağıdaki örnekte göreceğimiz üzere dosya izin gruplandırmaları 3'e bölerek oluyor.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/bb387f63-f02f-45a4-a651-58263fff1677"/>
+</div>
+
+---
+
+- Dosya İzin Ekleme Örneği: Aşağıdaki örnekte gördüğümüz üzere yazi.txt dosyasında çalıştırma izni bulunmamaktadır. `chmod +x yazi.txt` komutu ile kullanıcıya, gruba, kullanıcı ve grup dışındakilerin hepsine çalıştıma izni veriyoruz.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/3ea37285-c3ff-4ba6-a92e-7a1d03368bb4"/>
+</div>
+
+---
+
+- Dosya İzin Silme Örneği: Aşağıdaki örnekte gördüğümüz üzere yazi.txt dosyasında çalıştırma izni bulunmaktadır. `chmod -x yazi.txt` komutu ile kullanıcının, grubun, kullanıcı ve grup dışındakilerin çalıştıma iznini geri alıyoruz.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/7a133bd9-de09-496a-9b44-01b12cf98af3"/>
+</div>
+
+---
+
+##### Dosya İzinlerinin Sayısal İfadesi:
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/0f37aa24-18a4-4959-a0ca-9452bd06b76c"/>
+</div>
+
+---
+
+Örnek: Aşağıdaki örnnekte göreceğiniz üzere ilk başta dosya izin değeri 644 olan yazi.txt dosyasının iznini 555 yaptık. 
+- Yani önceden kullanıcı; okuma ve yazma, 
+- grup; sadece okuma, 
+- kullanıcı ve grup dışındaki kişiler; sadece okuma yaparken şimdi ise
+- kullanıcı; okuma ve çalıştırma
+- grup; okuma ve çalıştırma
+- kullanıcı ve grup dışındaki kişiler; okuma ve çalıştırma yapabilmektedir. 
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlar-_201/assets/122615472/2a656eed-4dd6-4e1c-9914-a76ade037aa3"/>
+</div>
